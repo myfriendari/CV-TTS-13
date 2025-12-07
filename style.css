@@ -1,0 +1,99 @@
+
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Layout utama */
+.container {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+/* Sidebar */
+.sidebar {
+    background: #1e293b;
+    color: white;
+    width: 32%;
+    padding: 30px 20px;
+}
+
+.foto-profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+    border: 3px solid #38bdf8;
+}
+
+.nim, .asal {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sosmed {
+    list-style: none;
+}
+
+.sosmed li {
+    margin: 8px 0;
+}
+
+.sosmed a {
+    color: #38bdf8;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.sosmed a:hover {
+    color: #a5f3fc;
+}
+
+/* Content utama */
+.content {
+    width: 68%;
+    padding: 30px 40px;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+section h2 {
+    margin-bottom: 8px;
+    color: #1e293b;
+}
+
+/* Video styling */
+.video-hobi {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
